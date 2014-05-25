@@ -1,72 +1,72 @@
 ## Codebook for tidyDataset
 
-|    | V4                   | V6    |   |   |
+|    | Variable             | Description  |  |   |
 |----|----------------------|-------|---|---|
-| 1  | subject              | int   |   |   |
-| 2  | activity             | Factor | LAYING SITTING STANDING WALKING WALKINGDOWN WALKINGUP  |   |
-| 3  | tbodyaccmeanx        | num   |   |   |
-| 4  | tbodyaccmeany        | num   |   |   |
-| 5  | tbodyaccmeanz        | num   |   |   |
-| 6  | tbodyaccstdx         | num   |   |   |
-| 7  | tbodyaccstdy         | num   |   |   |
-| 8  | tbodyaccstdz         | num   |   |   |
-| 9  | tgravityaccmeanx     | num   |   |   |
-| 10 | tgravityaccmeany     | num   |   |   |
-| 11 | tgravityaccmeanz     | num   |   |   |
-| 12 | tgravityaccstdx      | num   |   |   |
-| 13 | tgravityaccstdy      | num   |   |   |
-| 14 | tgravityaccstdz      | num   |   |   |
-| 15 | tbodyaccjerkmeanx    | num   |   |   |
-| 16 | tbodyaccjerkmeany    | num   |   |   |
-| 17 | tbodyaccjerkmeanz    | num   |   |   |
-| 18 | tbodyaccjerkstdx     | num   |   |   |
-| 19 | tbodyaccjerkstdy     | num   |   |   |
-| 20 | tbodyaccjerkstdz     | num   |   |   |
-| 21 | tbodygyromeanx       | num   |   |   |
-| 22 | tbodygyromeany       | num   |   |   |
-| 23 | tbodygyromeanz       | num   |   |   |
-| 24 | tbodygyrostdx        | num   |   |   |
-| 25 | tbodygyrostdy        | num   |   |   |
-| 26 | tbodygyrostdz        | num   |   |   |
-| 27 | tbodygyrojerkmeanx   | num   |   |   |
-| 28 | tbodygyrojerkmeany   | num   |   |   |
-| 29 | tbodygyrojerkmeanz   | num   |   |   |
-| 30 | tbodygyrojerkstdx    | num   |   |   |
-| 31 | tbodygyrojerkstdy    | num   |   |   |
-| 32 | tbodygyrojerkstdz    | num   |   |   |
-| 33 | tbodyaccmagmean      | num   |   |   |
-| 34 | tbodyaccmagstd       | num   |   |   |
-| 35 | tgravityaccmagmean   | num   |   |   |
-| 36 | tgravityaccmagstd    | num   |   |   |
-| 37 | tbodyaccjerkmagmean  | num   |   |   |
-| 38 | tbodyaccjerkmagstd   | num   |   |   |
-| 39 | tbodygyromagmean     | num   |   |   |
-| 40 | tbodygyromagstd      | num   |   |   |
-| 41 | tbodygyrojerkmagmean | num   |   |   |
-| 42 | tbodygyrojerkmagstd  | num   |   |   |
-| 43 | fbodyaccmeanx        | num   |   |   |
-| 44 | fbodyaccmeany        | num   |   |   |
-| 45 | fbodyaccmeanz        | num   |   |   |
-| 46 | fbodyaccstdx         | num   |   |   |
-| 47 | fbodyaccstdy         | num   |   |   |
-| 48 | fbodyaccstdz         | num   |   |   |
-| 49 | fbodyaccjerkmeanx    | num   |   |   |
-| 50 | fbodyaccjerkmeany    | num   |   |   |
-| 51 | fbodyaccjerkmeanz    | num   |   |   |
-| 52 | fbodyaccjerkstdx     | num   |   |   |
-| 53 | fbodyaccjerkstdy     | num   |   |   |
-| 54 | fbodyaccjerkstdz     | num   |   |   |
-| 55 | fbodygyromeanx       | num   |   |   |
-| 56 | fbodygyromeany       | num   |   |   |
-| 57 | fbodygyromeanz       | num   |   |   |
-| 58 | fbodygyrostdx        | num   |   |   |
-| 59 | fbodygyrostdy        | num   |   |   |
-| 60 | fbodygyrostdz        | num   |   |   |
-| 61 | fbodyaccmagmean      | num   |   |   |
-| 62 | fbodyaccmagstd       | num   |   |   |
-| 63 | fbodyaccjerkmagmean  | num   |   |   |
-| 64 | fbodyaccjerkmagstd   | num   |   |   |
-| 65 | fbodygyromagmean     | num   |   |   |
-| 66 | fbodygyromagstd      | num   |   |   |
-| 67 | fbodygyrojerkmagmean | num   |   |   |
-| 68 | fbodygyrojerkmagstd  | num   |   |   |
+| 1  | subject              | Single number (`1 to 30`) identifying the subject person that participated in the study|  |   |
+| 2  | activity             | Measured activity. One of `LAYING`, `SITTING`, `STANDING`, `WALKING`, `WALKINGDOWN`, `WALKINGUP`  |   |   |
+| 3  | tbodyaccmeanx        | Computed average value of the feature measurement by activity and subject(see above for a general description feature variables)    |   |   |
+| 4  | tbodyaccmeany        |    |   |   |
+| 5  | tbodyaccmeanz        |    |   |   |
+| 6  | tbodyaccstdx         |    |   |   |
+| 7  | tbodyaccstdy         |    |   |   |
+| 8  | tbodyaccstdz         |    |   |   |
+| 9  | tgravityaccmeanx     |    |   |   |
+| 10 | tgravityaccmeany     |    |   |   |
+| 11 | tgravityaccmeanz     |    |   |   |
+| 12 | tgravityaccstdx      |    |   |   |
+| 13 | tgravityaccstdy      |    |   |   |
+| 14 | tgravityaccstdz      |    |   |   |
+| 15 | tbodyaccjerkmeanx    |    |   |   |
+| 16 | tbodyaccjerkmeany    |    |   |   |
+| 17 | tbodyaccjerkmeanz    |    |   |   |
+| 18 | tbodyaccjerkstdx     |    |   |   |
+| 19 | tbodyaccjerkstdy     |    |   |   |
+| 20 | tbodyaccjerkstdz     |    |   |   |
+| 21 | tbodygyromeanx       |    |   |   |
+| 22 | tbodygyromeany       |    |   |   |
+| 23 | tbodygyromeanz       |    |   |   |
+| 24 | tbodygyrostdx        |    |   |   |
+| 25 | tbodygyrostdy        |    |   |   |
+| 26 | tbodygyrostdz        |    |   |   |
+| 27 | tbodygyrojerkmeanx   |    |   |   |
+| 28 | tbodygyrojerkmeany   |    |   |   |
+| 29 | tbodygyrojerkmeanz   |    |   |   |
+| 30 | tbodygyrojerkstdx    |    |   |   |
+| 31 | tbodygyrojerkstdy    |    |   |   |
+| 32 | tbodygyrojerkstdz    |    |   |   |
+| 33 | tbodyaccmagmean      |    |   |   |
+| 34 | tbodyaccmagstd       |    |   |   |
+| 35 | tgravityaccmagmean   |    |   |   |
+| 36 | tgravityaccmagstd    |    |   |   |
+| 37 | tbodyaccjerkmagmean  |    |   |   |
+| 38 | tbodyaccjerkmagstd   |    |   |   |
+| 39 | tbodygyromagmean     |    |   |   |
+| 40 | tbodygyromagstd      |    |   |   |
+| 41 | tbodygyrojerkmagmean |    |   |   |
+| 42 | tbodygyrojerkmagstd  |    |   |   |
+| 43 | fbodyaccmeanx        |    |   |   |
+| 44 | fbodyaccmeany        |    |   |   |
+| 45 | fbodyaccmeanz        |    |   |   |
+| 46 | fbodyaccstdx         |    |   |   |
+| 47 | fbodyaccstdy         |    |   |   |
+| 48 | fbodyaccstdz         |    |   |   |
+| 49 | fbodyaccjerkmeanx    |    |   |   |
+| 50 | fbodyaccjerkmeany    |    |   |   |
+| 51 | fbodyaccjerkmeanz    |    |   |   |
+| 52 | fbodyaccjerkstdx     |    |   |   |
+| 53 | fbodyaccjerkstdy     |    |   |   |
+| 54 | fbodyaccjerkstdz     |    |   |   |
+| 55 | fbodygyromeanx       |    |   |   |
+| 56 | fbodygyromeany       |    |   |   |
+| 57 | fbodygyromeanz       |    |   |   |
+| 58 | fbodygyrostdx        |    |   |   |
+| 59 | fbodygyrostdy        |    |   |   |
+| 60 | fbodygyrostdz        |    |   |   |
+| 61 | fbodyaccmagmean      |    |   |   |
+| 62 | fbodyaccmagstd       |    |   |   |
+| 63 | fbodyaccjerkmagmean  |    |   |   |
+| 64 | fbodyaccjerkmagstd   |    |   |   |
+| 65 | fbodygyromagmean     |    |   |   |
+| 66 | fbodygyromagstd      |    |   |   |
+| 67 | fbodygyrojerkmagmean |    |   |   |
+| 68 | fbodygyrojerkmagstd  |    |   |   |
