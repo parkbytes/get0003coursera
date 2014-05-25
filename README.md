@@ -4,7 +4,7 @@
 * `run_analysis.R`  - R script to analyse, clean and output the data
 * `CodeBook.md`  - codebook for the tidy data  
 
-### Sourcing the raw data and scripts
+### Downloading the raw data and scripts
 * download the file from link below and extract contents to a suitable location. 
     `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`
 * Save R script `run_analysis.R` from this repo to your working directory.
@@ -22,7 +22,7 @@
 ```
 ### Script Execution
 From within R command window...
-* source the supplied R script
+* source the supplied R script from working directory
 * call the function run()
 * when prompted, confirm (y/n) to question on working directory check
 * wait for script execution to complete... progress messages are displayed. 
