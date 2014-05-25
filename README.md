@@ -32,4 +32,6 @@ From within R command window...
 
 ### Output data
 * Cleaned data is output to `tidyDataset.txt` in R's working directory
-* Refer CodeBook.md for details on output data 
+* Refer CodeBook.md for details on output data
+
+For more info......this is only a course project! Thanks for your assessment.
