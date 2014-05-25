@@ -20,7 +20,8 @@ Resulting variables are listed in table below. Note, the end-part of the names d
 Summarisation is performed on the variables by activity and subject to store the average value of a mean or standard deviation.
 
 ### Codebook for the tidy dataset output from run_analysis.R script.
-Tab separated .txt file containing 180 observations and 68 variables.
+* Tab separated .txt file containing 180 observations and 68 variables.
+
 |    | Variable             | Description  |  |   |
 |----|----------------------|-------|---|---|
 | 1  | subject              | Single number (`1 to 30`) identifying the subject person that participated in the study|  |   |
