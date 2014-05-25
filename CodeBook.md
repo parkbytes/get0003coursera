@@ -3,7 +3,7 @@
 |    | V4                   | V6    |   |   |
 |----|----------------------|-------|---|---|
 | 1  | subject              | int   |   |   |
-| 2  | activity             | Facto |   |   |
+| 2  | activity             | Factor | LAYING SITTING STANDING WALKING WALKINGDOWN WALKINGUP  |   |
 | 3  | tbodyaccmeanx        | num   |   |   |
 | 4  | tbodyaccmeany        | num   |   |   |
 | 5  | tbodyaccmeanz        | num   |   |   |
