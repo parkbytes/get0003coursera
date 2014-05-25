@@ -28,7 +28,7 @@ From within R command window...
 * wait for script execution to complete... progress messages are displayed. 
 * verify `tidyDataset.txt` in working directory when complete
 ```
-  source "run_analysis.R"
+  source("run_analysis.R")
   run()
 ```
 ### Output data

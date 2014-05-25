@@ -28,13 +28,13 @@ Resulting variables are listed in table below. Note, the end-part of the names d
 - 'test/subject_test.txt : Subject performing the activity
 
 `firstSet` : extracted, merged and labelled dataset within R script 
-`tidyDataset` : tidy data output by R script
+`secondSet` : tidy data output by R script
 
 ====================================
 
 Summarisation is performed on the variables by activity and subject to store the average value of a mean or standard deviation.
 
-### Codebook for the tidyDataset.txt output from run_analysis.R script.
+### Codebook for the `tidyDataset.txt` output from `run_analysis.R` script.
 * Tab separated .txt file containing 180 observations and 68 variables.
 
 |    | Variable             | Description  |  |   |
