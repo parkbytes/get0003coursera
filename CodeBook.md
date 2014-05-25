@@ -10,16 +10,30 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
  
 ###  variables, the data, and work performed for the clean up
 File feature_info.txt accompanying the raw data describes the feature measures and variables estimated from them.
-
 For the clean up exercise, the variables corresponding to the below estimates on features are only extracted.
 * mean(): Mean value  
 * std(): Standard deviation
 
 Resulting variables are listed in table below. Note, the end-part of the names denotes a mean() or std() and applicable measurement axis `x,y,z`. 
 
+Working Data:
+=========================================
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'train/subject_train.txt : Subject performing the activity
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+- 'test/subject_test.txt : Subject performing the activity
+
+`firstSet` : extracted, merged and labelled dataset within R script 
+`tidyDataset` : tidy data output by R script
+====================================
+
 Summarisation is performed on the variables by activity and subject to store the average value of a mean or standard deviation.
 
-### Codebook for the tidy dataset output from run_analysis.R script.
+### Codebook for the tidyDataset.txt output from run_analysis.R script.
 * Tab separated .txt file containing 180 observations and 68 variables.
 
 |    | Variable             | Description  |  |   |
