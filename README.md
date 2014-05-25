@@ -16,9 +16,9 @@
     if (!file.exists("zipFile")) {
         url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
         download.file(url, destfile=zipFile)
-    } else {
-        unzip(zipFile)
-    }
+    } 
+    unzip(zipFile)
+    
 ```
 ### Script Execution
 From within R command window...
@@ -26,7 +26,7 @@ From within R command window...
 * call the function run()
 * when prompted, confirm (y/n) to question on working directory check
 * wait for script execution to complete... progress messages are displayed. 
-* verify 'tidyDataset.txt" in working directory when complete
+* verify `tidyDataset.txt` in working directory when complete
 ```
   source "run_analysis.R"
   run()

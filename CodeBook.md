@@ -16,7 +16,7 @@ For the clean up exercise, the variables corresponding to the below estimates on
 
 Resulting variables are listed in table below. Note, the end-part of the names denotes a mean() or std() and applicable measurement axis `x,y,z`. 
 
-Working Data:
+#### Working Data:
 =========================================
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -29,6 +29,7 @@ Working Data:
 
 `firstSet` : extracted, merged and labelled dataset within R script 
 `tidyDataset` : tidy data output by R script
+
 ====================================
 
 Summarisation is performed on the variables by activity and subject to store the average value of a mean or standard deviation.
