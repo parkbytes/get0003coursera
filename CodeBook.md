@@ -1,10 +1,29 @@
-## Codebook for tidyDataset
+## About the study and raw data
+Source data collected from the accelerometers from the Samsung Galaxy S smartphone is being used in this datascience course from Coursera. A full description is available at the site where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+* Download link to raw data
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+ 
+## Codebook for the tidy dataset output from run_analysis.R script.
+
+## * variables, the data, and work performed for the clean up
+File feature_info.txt accompanying the raw data describes the feature measures and variables estimated from them.
+
+For the clean up exercise, the variables corresponding to the below estimates on features are only extracted.
+* mean(): Mean value  
+* std(): Standard deviation
+
+Resulting variables are listed in table below. Note, the end-part of the names denotes a mean() or std() and applicable measurement axis `x,y,z`. 
+
+Summarisation is performed on the variables by activity and subject to store the average value of a mean or standard deviation.
 
 |    | Variable             | Description  |  |   |
 |----|----------------------|-------|---|---|
 | 1  | subject              | Single number (`1 to 30`) identifying the subject person that participated in the study|  |   |
 | 2  | activity             | Measured activity. One of `LAYING`, `SITTING`, `STANDING`, `WALKING`, `WALKINGDOWN`, `WALKINGUP`  |   |   |
-| 3  | tbodyaccmeanx        | Computed average value of the feature measurement by activity and subject(see above for a general description feature variables)    |   |   |
+| 3  | tbodyaccmeanx        | Computed average value of the feature measurement by activity and subject. See above for a general description of features. For example, `tbodyaccmeanx` represents the mean of the body acceleration along X axis over a time period. Same explanation applies for rest of variables below.  |   |   |
 | 4  | tbodyaccmeany        |    |   |   |
 | 5  | tbodyaccmeanz        |    |   |   |
 | 6  | tbodyaccstdx         |    |   |   |
